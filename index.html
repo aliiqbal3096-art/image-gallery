@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVARYN Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Premium Image Gallery</h1>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search images..."
+    >
+
+    <div class="filters">
+
+        <button class="filter-btn active" data-category="All">All</button>
+
+        <button class="filter-btn" data-category="Nature">Nature</button>
+
+        <button class="filter-btn" data-category="Travel">Travel</button>
+
+    </div>
+
+</header>
+
+<main class="gallery">
+
+    <!-- Images will be inserted here by JavaScript -->
+
+</main>
+
+<div class="lightbox">
+
+    <button id="prev">&#10094;</button>
+
+    <img id="lightboxImage" alt="Preview">
+
+    <button id="next">&#10095;</button>
+
+    <span id="close">&times;</span>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<footer>
+
+<p>Developed by NOVARYN | © 2026</p>
+
+</footer>
